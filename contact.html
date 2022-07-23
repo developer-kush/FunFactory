@@ -13,15 +13,14 @@
     <!-- Navbar of the Document -->
     <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
         <div class="container">
-            <a href="index.html" class="navbar-brand">Get a SmiLe</a>
+            <a href="/index.html" class="navbar-brand"><strong>Fun Factory</strong></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="Navbar">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item"><a href="/index.html" class="nav-link"><span class="fa fa-home"></span> Home</a></li>
-                    <li class="nav-item"><a href="/aboutme.html" class="nav-link"><span class="fa fa-info"></span> About</a></li>
-                    <li class="nav-item active"><a href="#" class="nav-link"><span class="fa fa-phone"></span> Contact</a></li>
+                    <li class="nav-item active"><a href="/index.html" class="nav-link"><span class="fa fa-home"></span> Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"><span class="fa fa-phone"></span> Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -32,13 +31,131 @@
         <div class="row">
             <ol class="col-12 breadcrumb">
                 <li class="breadcrumb-item"><a href="/index.html">Home</a></li>
-                <li class="breadcrumb-item active">About Us</li>
+                <li class="breadcrumb-item active">My Contacts</li>
             </ol>
+        </div>
+
+        <div class="row row-header">
             <div class="col-12">
-                <h3>CoNtaCt DeTaiLs</h3>
-                <hr>
+                <h2><strong>ConTaCt DeTaiLs</strong></h2>
             </div>
         </div>
+        
+        <h5>My Address <i class="fa fa-home"></i> </h5>
+
+        <div class="row row-content">
+            <div class="col-12 col-sm-6">
+                <h6>Permanent Address : </h6>
+                <address>
+                P.K. Rice Mill,<br>
+                Bareilly Road Haldwani,<br>
+                Nainital Uttarakhand<br>
+                </address>
+            </div>
+            <div class="col-12 col-sm-6">
+                <h6>Current Address : </h6>
+                <address>
+                Room No. 413,<br>
+                Nek Chand Hostel, Tower 3,<br>
+                Chandigarh University,<br>
+                Gharuan, Punjab<br>
+                </address>
+            </div>
+            <div class="col-12">
+                <i class="fa fa-phone"></i> : +91 78958 35308<br>
+                <i class="fa fa-envelope"></i> : kushagra.agarwal.2709@gmail.com<br>
+                <i class="fa fa-linkedin"></i> : https://www.linkedin.com/in/kushagra-agarwal-548008226/
+            </div>
+        </div>
+        <div class="row row-content">
+            <div class="col-12">
+                <div class="btn-group" role="group">
+                    <a role="button" class="btn btn-primary" href="tel:+917895835308"><i class="fa fa-phone"></i> Call</a>
+                    <a role="button" class="btn btn-success" href="mailto:confusion@food.net"><i class="fa fa-envelope-o"></i> E-mail</a>
+                    <a role="button" class="btn btn-linkedin" href="https://www.linkedin.com/in/kushagra-agarwal-548008226/"><i class="fa fa-linkedin"> LinkedIn</i></a>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row row-header">
+            <div class="col-12">
+                <h2><strong>Share Your Feedback</strong></h2>
+            </div>
+        </div>
+
+        <div class="row row-content">
+            
+            <div class="col-12 col-md-9">
+                <form>
+                    
+                    <div class="form-group row">
+                        <label for="firstname" class="col-md-2 col-form-label">First Name</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="firstname" name="lastname" placeholder="First Name">
+                        </div>
+                    </div>
+ 
+                    <div class="form-group row">
+                        <label for="lastname" class="col-md-2 col-form-label">Last Name</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="lastname" name="lastname" placeholder="Last Name">
+                        </div>
+                    </div>
+ 
+                    <div class="form-group row">
+                        <label for="telnum" class="col-md-2 col-form-label">Contact No.</label>
+                        <div class="col-5 col-md-3">
+                            <input type="tel" class="form-control" id="areacode" name="areacode" placeholder="Area Code">
+                        </div>
+                        <div class="col-7 col-md-7">
+                            <input type="tel" class="form-control" id="telnum" name="telnum" placeholder="Contact No.">
+                        </div>
+                    </div>
+ 
+                    <div class="form-group row">
+                        <label for="emailid" class="col-md-2 col-form-label">E-mail</label>
+                        <div class="col-md-10">
+                            <input type="email" class="form-control" id="emailid" name="emailid" placeholder="E-mail Id.">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <div class="col-md-6 offset-md-2">
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" name="approve" id="approve">
+                                <label for="approve" class="form-check-label">
+                                    <strong>May we Contact you ??</strong>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-md-3 offset-md-1">
+                            <select class="form-control">
+                                <option>Tel.</option>
+                                <option>E-mail</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="feedback" class="col-md-2 col-form-label">Feedback</label>
+                        <div class="col-md-10">
+                            <textarea class="form-control" name="feedback" id="feedback" rows="6"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-md-4 offset-md-2">
+                            <button type="submit" class="btn btn-primary">Send Feedback</button>
+                        </div>
+                    </div>
+                 </form>
+            </div>
+            <div class="col-12 col-md">
+
+            </div>
+        </div> 
+                
+      </div>
     </div>
 
     <!-- Footer of the document -->
